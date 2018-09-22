@@ -1,0 +1,16 @@
+<div class='table'>
+  <div class='table-headers'>
+    <div>ID</div>
+    <div>Nombre</div>
+    <div>Precio costo</div>
+    <div>Precio venta</div>
+    <div>Stock</div>
+  </div>
+  <div class="table-items" *ngFor='let product of products'>
+    <div>{{product.id}} </div>
+    <div>{{product.name}}</div>
+    <div>{{product.costprice}}</div>
+    <div>{{product.saleprice}}</div>
+    <div>{{product.stock}}</div>
+  </div>
+</div>
