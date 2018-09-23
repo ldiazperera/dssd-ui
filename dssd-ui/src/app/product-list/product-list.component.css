@@ -1,21 +1,3 @@
-.table {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.table .table-headers {
-    display: flex;
-    flex-direction: row nowrap;
-    justify-content: space-evenly;
-    background-color: gray;
-}
-
-.table .table-items {
-    display: flex;
-    flex-direction: row nowrap;
-    justify-content: space-evenly;
-    margin: 1;
-    background-color:darkgrey;
-    
+table {
+    width: 100%;
 }

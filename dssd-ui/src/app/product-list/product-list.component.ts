@@ -6,9 +6,11 @@ import { PRODUCTS } from '../mock-products';
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
+
 export class ProductListComponent implements OnInit {
 
   products = PRODUCTS;
+  displayedColumns: string[] = ['id', 'nombre', 'precioventa', 'preciocosto', 'accion'];
 
   constructor() { }
 
